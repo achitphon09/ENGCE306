@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab3</title>
+</head>
+
+<body>
+    <form method="post">
+
+        <fieldset>
+            <legend>Step One: Personal Information</legend>
+            <table border="0" cellpadding="5">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" id="Fname" name="Fname"></td>
+
+                    <td>Last Name:</td>
+                    <td><input type="text" id="Lname" name="Lname"></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" id="Uname" name="Uname"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" id="Password" name="Password"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <input type="radio" name="Gender" value="Male">Male</label>
+                        <input type="radio" name="Gender" value="Female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Province:</td>
+                    <td>
+                        <select name="Province" id="Province">
+                            <option value="select" selected="selected">-- Select Your Province --</option>
+                            <option value="amnatcharoen">Amnat Charoen</option>
+                            <option value="angthong">Ang Thong</option>
+                            <option value="bangkok">Bangkok</option>
+                            <option value="buengkan">Bueng Kan</option>
+                            <option value="buriram">Buri Ram</option>
+                            <option value="chachoengsao">Chachoengsao</option>
+                            <option value="chainat">Chai Nat</option>
+                            <option value="chaiyaphum">Chaiyaphum</option>
+                            <option value="chanthaburi">Chanthaburi</option>
+                            <option value="chiangmai">Chiang Mai</option>
+                            <option value="chiangrai">Chiang Rai</option>
+                            <option value="chonburi">Chon Buri</option>
+                            <option value="chumphon">Chumphon</option>
+                            <option value="kalasin">Kalasin</option>
+                            <option value="kamphaengphet">Kamphaeng Phet</option>
+                            <option value="kanchanaburi">Kanchanaburi</option>
+                            <option value="khonkaen">Khon Kaen</option>
+                            <option value="krabi">Krabi</option>
+                            <option value="lampang">Lampang</option>
+                            <option value="lamphun">Lamphun</option>
+                            <option value="loei">Loei</option>
+                            <option value="lopburi">Lop Buri</option>
+                            <option value="maehongson">Mae Hong Son</option>
+                            <option value="mahasarakham">Maha Sarakham</option>
+                            <option value="mukdahan">Mukdahan</option>
+                            <option value="nakhonnayok">Nakhon Nayok</option>
+                            <option value="nakhonpathom">Nakhon Pathom</option>
+                            <option value="nakhonphanom">Nakhon Phanom</option>
+                            <option value="nakhonratchasima">Nakhon Ratchasima</option>
+                            <option value="nakhonsawan">Nakhon Sawan</option>
+                            <option value="nakhonsithammarat">Nakhon Si Thammarat</option>
+                            <option value="nan">Nan</option>
+                            <option value="narathiwat">Narathiwat</option>
+                            <option value="nongbualamphu">Nong Bua Lam Phu</option>
+                            <option value="nongkhai">Nong Khai</option>
+                            <option value="nonthaburi">Nonthaburi</option>
+                            <option value="pathumthani">Pathum Thani</option>
+                            <option value="pattani">Pattani</option>
+                            <option value="phangnga">Phang Nga</option>
+                            <option value="phatthalung">Phatthalung</option>
+                            <option value="phayao">Phayao</option>
+                            <option value="phetchabun">Phetchabun</option>
+                            <option value="phetchaburi">Phetchaburi</option>
+                            <option value="phichit">Phichit</option>
+                            <option value="phitsanulok">Phitsanulok</option>
+                            <option value="phranakhonsiayutthaya">Phra Nakhon Si Ayutthaya</option>
+                            <option value="phrae">Phrae</option>
+                            <option value="phuket">Phuket</option>
+                            <option value="prachinburi">Prachin Buri</option>
+                            <option value="prachuapkhirikhan">Prachuap Khiri Khan</option>
+                            <option value="ranong">Ranong</option>
+                            <option value="ratchaburi">Ratchaburi</option>
+                            <option value="rayong">Rayong</option>
+                            <option value="roiet">Roi Et</option>
+                            <option value="sakaeo">Sa Kaeo</option>
+                            <option value="sakonnakhon">Sakon Nakhon</option>
+                            <option value="samutprakan">Samut Prakan</option>
+                            <option value="samutsakhon">Samut Sakhon</option>
+                            <option value="samutsongkhram">Samut Songkhram</option>
+                            <option value="saraburi">Saraburi</option>
+                            <option value="satun">Satun</option>
+                            <option value="sisaket">Si Sa Ket</option>
+                            <option value="singburi">Sing Buri</option>
+                            <option value="songkhla">Songkhla</option>
+                            <option value="sukhothai">Sukhothai</option>
+                            <option value="suphanburi">Suphan Buri</option>
+                            <option value="suratthani">Surat Thani</option>
+                            <option value="surin">Surin</option>
+                            <option value="tak">Tak</option>
+                            <option value="trang">Trang</option>
+                            <option value="trat">Trat</option>
+                            <option value="ubonratchathani">Ubon Ratchathani</option>
+                            <option value="udonthani">Udon Thani</option>
+                            <option value="utthaithani">Uthai Thani</option>
+                            <option value="uttaradit">Uttaradit</option>
+                            <option value="yala">Yala</option>
+                            <option value="yasothon">Yasothon</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Vehicle:</td>
+                    <td>
+                        <input type="checkbox" name="vehicle" value="car">Car<br>
+                        <input type="checkbox" name="vehicle" value="motorcycle">Motorcycle<br>
+                        <input type="checkbox" id="bi" name="vehicle" value="bicycle">Bicycle
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="pics">Pictures:</label></td>
+                    <td><input type="file" id="pics" name="pics"></td>
+                </tr>
+            </table>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Step Two: General Information</legend>
+            <p>Suggestion:</p>
+            <textarea name="suggest" rows="10" cols="80">Your Comment Here</textarea>
+        </fieldset>
+    </form>
+</body>
+
+</html>

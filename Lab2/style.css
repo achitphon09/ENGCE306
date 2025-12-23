@@ -1,0 +1,32 @@
+p{
+    font-family:Kanit,sans-serif;
+    font-weight: bold;
+    color: crimson;
+}
+
+h1{
+    color: maroon;
+    font-family: Kanit;
+}
+
+h2{
+    font-family: Kanit;
+    background-color: darkred;
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+b{
+    text-align: center;
+    margin: 5px;
+    font-size:medium;
+}
+
+ol,ul{
+    color: crimson;
+    font-family: Kanit,sans-serif;
+    font-weight: bold;
+}
+
