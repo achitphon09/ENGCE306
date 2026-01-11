@@ -1,0 +1,88 @@
+fieldset {
+    border: 2px solid navy;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9fbff;
+}
+
+legend {
+    font-weight: bold;
+    color: #4a5fdc;
+    padding: 0 8px;
+    font-size: x-large;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    padding: 6px;
+    vertical-align: middle;
+}
+
+
+td:first-child {
+    width: 150px;
+    text-align: right;
+    font-weight: medium;
+    color: darkblue;
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 200px;
+    padding: 8px;
+    border: 2px solid #c7d2fe;
+    border-radius: 6px;
+    background-color: #ffffff;
+    transition: all 0.2s ease;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+
+select[name="Birth"],
+select[name="Month"],
+select[name="Year"] {
+    width: 90px;
+    margin-right: 5px;
+}
+
+input:focus,
+select:focus {
+    border-color: #4f46e5;
+    background-color: #eef2ff;
+    outline: none;
+}
+
+td[colspan] {
+    text-align: left;
+}
+
+button {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #4338ca;
+}
+
+.center{
+    text-align: center;
+}
